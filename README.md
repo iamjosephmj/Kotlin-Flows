@@ -17,7 +17,7 @@ One of the goals of Flow is to provide structural concurrency in your asynchrono
 structured concurrency, you define coroutines within a given scope that may have the limited lifetime and not 
 in a global scope.
 </p>
-<img src="\img\structured_concurrency.png">
+<img src="https://github.com/iamjosephmj/Kotlin-Flows/blob/main/img/structured_concurrency.png">
 
 <p>
 If the scope the coroutines are running in ends its lifecycle. The coroutines are automatically 
