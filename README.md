@@ -22,7 +22,7 @@ in a global scope.
 <p>
 If the scope the coroutines are running in ends its lifecycle. The coroutines are automatically 
 cleaned up, even if they are not finished running. Flows share the same cancellable properties as 
-coroutines, and so you don't need to dispose them as you do with RxJava. You can think of Kotlin flows as a:
+coroutines, and so you don't need to dispose them as you do with RxJava. You can think of Kotlin main.flows as a:
 <br>
 <b>Flow = Cold, asynchronous stream</b>
 <br>
